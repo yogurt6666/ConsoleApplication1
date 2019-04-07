@@ -15,6 +15,9 @@ void  MyPrint(void *data)
 	USER_DATA *p = (USER_DATA *)data;
 	printf("%s %d \n",p->name,p->age);
 
+
+
+
 }
 int Compare(void *d1, void *d2)
 {
